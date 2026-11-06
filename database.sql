@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS funcionarios;
+
+CREATE TABLE funcionarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    funcao VARCHAR(100) NOT NULL,
+    salario DECIMAL(10, 2) NOT NULL
+);
